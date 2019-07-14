@@ -1,0 +1,264 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Every test",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17520035287,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "ope the browser",
+            "match": {
+              "location": "StepDefinition.opener()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-07-04T16:09:15.663Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2967447,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.abcert()"
+            }
+          },
+          {
+            "result": {
+              "duration": 314892,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.abcert1()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Select multiple drop down values",
+        "description": "",
+        "id": "drop-down-handling;select-multiple-drop-down-values",
+        "after": [
+          {
+            "result": {
+              "duration": 272906,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 131088,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26427361911,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "navigated to brand site",
+            "match": {
+              "location": "StepDefinition.b()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 941937672,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "find the element and select value",
+            "match": {
+              "location": "StepDefinition.c()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 602694168,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "deselect the values",
+            "match": {
+              "location": "StepDefinition.d()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 156869331,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "display the values",
+            "match": {
+              "location": "StepDefinition.e()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 174269089,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "quit the browser",
+            "match": {
+              "location": "StepDefinition.f()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Second"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Every test",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13245471038,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "ope the browser",
+            "match": {
+              "location": "StepDefinition.opener()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-07-04T16:10:01.511Z",
+        "before": [
+          {
+            "result": {
+              "duration": 210394,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.abcert()"
+            }
+          },
+          {
+            "result": {
+              "duration": 117093,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.abcert1()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Select multiple drop down valueshdvdv hkdb",
+        "description": "",
+        "id": "drop-down-handling;select-multiple-drop-down-valueshdvdv-hkdb",
+        "after": [
+          {
+            "result": {
+              "duration": 139019,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 124558,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20788680034,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "navigated to brand site",
+            "match": {
+              "location": "StepDefinition.b()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat tests.Cucumber.StepDefinition.e(StepDefinition.java:93)\r\n\tat ✽.display the values(file:src/main/java/tests/Cucumber/Practice.feature:17)\r\n",
+              "duration": 3072411,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "display the values",
+            "match": {
+              "location": "StepDefinition.e()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 30322,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "quit the browser",
+            "match": {
+              "location": "StepDefinition.f()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          }
+        ]
+      }
+    ],
+    "name": "Drop Down Handling",
+    "description": "",
+    "id": "drop-down-handling",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/tests/Cucumber/Practice.feature",
+    "tags": []
+  }
+]

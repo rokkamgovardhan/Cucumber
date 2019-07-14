@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="82350" started-at="2019-07-04T16:09:14Z" finished-at="2019-07-04T16:10:36Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.Cucumber.TestNGrunner@224edc67]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="82350" started-at="2019-07-04T16:09:14Z" finished-at="2019-07-04T16:10:36Z">
+      <class name="tests.Cucumber.TestNGrunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:tests.Cucumber.TestNGrunner@224edc67]" name="setUpClass" is-config="true" duration-ms="403" started-at="2019-07-04T21:39:14Z" finished-at="2019-07-04T21:39:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.Cucumber.TestNGrunner@224edc67]" name="runScenario" duration-ms="46396" started-at="2019-07-04T21:39:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-07-04T21:40:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Select multiple drop down values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Drop Down Handling"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.Cucumber.TestNGrunner@224edc67]" name="runScenario" duration-ms="34049" started-at="2019-07-04T21:40:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-07-04T21:40:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Select multiple drop down valueshdvdv hkdb"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Drop Down Handling"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at tests.Cucumber.StepDefinition.e(StepDefinition.java:93)
+	at ✽.display the values(file:src/main/java/tests/Cucumber/Practice.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.Cucumber.TestNGrunner@224edc67]" name="tearDownClass" is-config="true" duration-ms="1170" started-at="2019-07-04T21:40:35Z" finished-at="2019-07-04T21:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.Cucumber.TestNGrunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
